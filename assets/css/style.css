@@ -1,0 +1,88 @@
+html, body{
+  background-color: #E5E5E5;
+  overflow-x: hidden;
+}
+.nav-style{
+  background-color: #650202;
+}
+
+.nav-item-style{
+  padding: 2.52rem 2.03rem;
+}
+.btn-style{
+  background: #FFFFFF;
+border-radius: 5px;
+font-weight: 500;
+font-size: 8px;
+line-height: 12px;
+padding: 0.2rem 1.25rem;
+margin: 0 5.2rem 0 3.1rem;
+}
+
+.hero-section{
+  background-image: url('../img/herom.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+@media (min-width: 576px) { 
+  /* .hero-section{
+    background-image: url('../img/herom.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+  } */
+}
+
+
+@media (min-width: 768px) { 
+  /* .hero-section{
+    background-image: url('../img/herom.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+  } */
+}
+
+
+@media (min-width: 992px) { 
+  .btn-style{
+  font-size: 0.9rem;
+  line-height: 1.375rem;
+  padding: 0.7rem 2.4rem;
+  margin: 0 10.75rem 0 6.125rem;
+  }
+  .hero-section{
+    background-image: url('../img/herod.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: relative;
+    min-height: calc(100vh - 7.56rem);
+    min-width: 100vw;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  .btn-style{
+  font-size: 0.9rem;
+  line-height: 1.375rem;
+  padding: 0.7rem 2.4rem;
+  margin: 0 10.75rem 0 6.125rem; 
+  }
+}
