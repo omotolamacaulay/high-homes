@@ -20,16 +20,54 @@ margin: 0 5.2rem 0 3.1rem;
 }
 
 .hero-section{
-  background-image: url('../img/herom.svg');
+  background-image: url('../img/herod.svg');
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
   position: relative;
-  min-height: 100vh;
+  min-height: 50vh;
   min-width: 100vw;
+  position: relative;
+}
+.hero-section::after{
+content: "";
+display: block;
+min-height: 100vh;
+min-width: 100vw;
+background: rgba(4, 4, 4, 0.49);
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
 }
 
+.hero-section > * {
+  z-index: 10;
+  position: relative;
+}
+section h1{
+  font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.5rem;
+text-align: center;
+color: #FFFFFF;
+padding-top: 20%;
+max-width: 54%;
+}
+.lead-paragraph{
+  font-style: normal;
+font-weight: normal;
+font-size: 0.625rem;
+line-height: 0.94rem;
+text-align: center;
+color: #FFFFFF;
+max-width: 47%;
+}
+.icon-img{
+  
+}
 @media (min-width: 576px) { 
   /* .hero-section{
     background-image: url('../img/herom.svg');
@@ -66,13 +104,13 @@ margin: 0 5.2rem 0 3.1rem;
   margin: 0 10.75rem 0 6.125rem;
   }
   .hero-section{
-    background-image: url('../img/herod.svg');
+    background-image: url('../img/herom.svg');
     background-repeat: no-repeat;
     background-size: cover;
     top: 0;
     left: 0;
     position: relative;
-    min-height: calc(100vh - 7.56rem);
+    min-height: 100vh;
     min-width: 100vw;
   }
 }
