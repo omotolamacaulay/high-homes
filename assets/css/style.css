@@ -216,6 +216,13 @@ svg circle{
   align-items: center;
   border-radius: 50%;
 }
+hr{
+  border:1px solid #fff;
+  width: 100%;
+}
+.center{
+  margin: auto !important;
+}
 @media (min-width: 576px) { 
   /* .hero-section{
     background-image: url('../img/herom.svg');
@@ -244,7 +251,7 @@ svg circle{
   .hero-section::after{
     content: "";
     display: block;
-    min-height: 130vh;
+    min-height: 100vh;
     min-width: 100vw;
     background: rgba(4, 4, 4, 0.49);
     position: absolute;
@@ -258,8 +265,8 @@ svg circle{
       line-height: 1.36rem;
     }
     .p-font{
-      font-size: 0.7rem;
-      line-height: 1.36rem;
+      font-size: 0.85rem;
+      line-height: 1.2rem;
       text-align: center;
     }
     .brand-style-2{
@@ -289,7 +296,28 @@ svg circle{
     color: #FFFFFF;
     max-width: 43%;
     }
-    
+    .btn-style{
+      font-size: 0.9rem;
+      line-height: 1.375rem;
+      font-weight: 500;
+      padding: 0.7rem 2.4rem;
+      margin: 1.94rem 5.75rem 1.94rem 0.125rem;
+      min-width: 10.9rem;
+      }
+      section h2{
+        font-weight: 500;
+        font-size: 2.1rem;
+        line-height: 3.63rem;
+        letter-spacing: -0.005em;
+      
+      }
+      .paragraph{
+        font-weight: normal;
+      font-size: 0.85rem;
+      line-height: 1.2rem;
+      max-width: 70%;
+      text-align: center;
+      }
 }
 
 
