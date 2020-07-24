@@ -238,7 +238,7 @@ svg circle{
     top: 0;
     left: 0;
     position: relative;
-    min-height: 80vh;
+    min-height: 100vh;
     min-width: 100vw;
   }
   .hero-section::after{
@@ -277,7 +277,7 @@ svg circle{
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2.3rem;
-    padding-top: 20%;
+    padding-top: 15%;
     max-width: 54%;
     }
     .lead-paragraph{
