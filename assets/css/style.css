@@ -238,7 +238,7 @@ svg circle{
     top: 0;
     left: 0;
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh-50px);
     min-width: 100vw;
   }
   .hero-section::after{
