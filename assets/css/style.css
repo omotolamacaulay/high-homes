@@ -2,6 +2,10 @@ html, body{
   background-color: #E5E5E5;
   overflow-x: hidden;
 }
+
+:root{
+  --swiper-theme-color: #650202 ;
+}
 .font-family-1{
   font-family: 'Poppins', sans-serif;
 }
