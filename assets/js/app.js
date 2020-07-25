@@ -66,6 +66,36 @@ $(document).ready(function(){
 //       }
 //     }
 
-
+$(document).ready(function(){
+  // $('#slide .slider').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    speed: 2000,
+    centerMode: true,
+  centerPadding: '60px',
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '20px',
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '20px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
 
 new WOW().init();
