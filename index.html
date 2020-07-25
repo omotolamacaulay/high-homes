@@ -17,7 +17,10 @@
     <title>High Homes</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg nav-style py-0">
+    <!-- <div class="loader-bg">
+      <div class="loader"></div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg nav-style fixed-top py-0">
       <a class="navbar-brand" href="#"
         ><img
           src="./assets/img/logom.png"
@@ -34,7 +37,7 @@
         GET A QUOTE
       </button>
       <button
-        class="navbar-toggler mr-5 pr-2"
+        class="navbar-toggler mr-5 pr-2 my-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -42,35 +45,35 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto mx-0 text-center">
           <li class="nav-item nav-item-style">
-            <a class="nav-link font-family-1 p-0 text-white" href="#"
+            <a class="nav-link font-family-1 p-0 text-white" href="#home"
               >HOME <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item nav-item-style mx-0 px-3">
-            <a class="nav-link font-family-1 text-white p-0" href="#"
+            <a class="nav-link font-family-1 text-white p-0" href="#about"
               >ABOUT US</a
             >
           </li>
           <li class="nav-item nav-item-style mx-0">
-            <a class="nav-link font-family-1 text-white p-0" href="#">TEAM</a>
+            <a class="nav-link font-family-1 text-white p-0" href="#team">TEAM</a>
           </li>
           <li class="nav-item nav-item-style mx-0">
-            <a class="nav-link font-family-1 text-white p-0" href="#"
+            <a class="nav-link font-family-1 text-white p-0" href="#portfolio"
               >PORTFOLIO</a
             >
           </li>
           <li class="nav-item nav-item-style mx-0">
-            <a class="nav-link font-family-1 text-white p-0" href="#"
+            <a class="nav-link font-family-1 text-white p-0" href="#contact"
               >CONTACT</a
             >
           </li>
           <li class="nav-item nav-item-style mx-0">
-            <a class="nav-link font-family-1 text-white p-0" href="#">BLOG</a>
+            <a class="nav-link font-family-1 text-white p-0" href="#blog">BLOG</a>
           </li>
         </ul>
       </div>
@@ -80,7 +83,7 @@
     </nav>
 
    
-    <section class="container-fluid hero-section d-flex flex-column justify-content-center align-items-center">
+    <section id="home" class="container-fluid hero-section d-flex flex-column justify-content-center align-items-center">
       <div class="center ">
         <h1 class="text-center mx-auto font-family-1">
           We will help you make your home beautiful again
@@ -103,7 +106,7 @@
       </div>
     </section>
 
-    <section class="container-fluid d-none d-md-block">
+    <section class="container-fluid d-none d-md-block" id="about">
       <h2 class="text-center font-family-1 py-5">WHAT WE DO</h2>
       <p class="font-family-1 paragraph mx-auto mb-md-5">
         This and more are some of the things we do This and more are some of the
@@ -181,7 +184,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid d-block d-md-none animate__flipInY animate__animated wow animate__slow">
+    <section class="container-fluid d-block d-md-none animate__flipInY animate__animated wow animate__slow" id="about">
       <h2 class="text-center font-family-1">WHAT WE DO</h2>
       <p class="font-family-1 paragraph mx-auto">
         This and more are some of the things we do This and more are some of the
@@ -251,6 +254,7 @@
         </div>
       </div>
     </section>
+    <!-- Achievements -->
     <section class="container-fluid nav-style border-0 mx-auto py-5 my-5 animate__bounceIn animate__animated wow animate__slow ">
       <p class="py-4 text-center text-white">We have been able to achieve</p>
       <div class="row border-0">
@@ -320,7 +324,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid">
+    <section class="container-fluid" id="team">
       <h2 class="text-center font-family-1 mx-auto py-5">OUR TEAM</h2>
       <div class="row mx-2 mx-md-5">
         <div class="col-12 col-md-6 col-lg-3 text-center d-inline-block p-3">
@@ -439,7 +443,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid px-0 d-none d-md-block mx-auto text-center">
+    <section class="container-fluid px-0 d-none d-md-block mx-auto text-center" id="portfolio">
       <h2 class="text-center font-family-1 py-5">PORTFOLIO</h2>
       <div class="row px-5">
         <div class="col-4 text-center text-md-left d-inline-block py-4">
@@ -507,7 +511,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid d-block d-md-none">
+    <section class="container-fluid d-block d-md-none" id="portfolio">
       <div class="swiper-container row mx-auto">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -720,7 +724,7 @@
     </section>
 
     </section>
-    <section class="container-fluid">
+    <section class="container-fluid" id="blog">
       <h2 class="text-center font-family-1 py-5">LATEST BLOG</h2>
       <div class="row px-5">
         <div class="col-12 col-md-4">
@@ -791,7 +795,7 @@
         </div>
       </div>
     </section>
-    <section class="container-fluid px-0">
+    <section class="container-fluid px-0" id="contact">
       <h2 class="text-center font-family-1 py-5">CONTACT US</h2>
       <div class="row m-2 mx-md-5">
         <div class="col-12 d-block d-md-none">
@@ -841,7 +845,7 @@
             </div>
             <button
               type="button"
-              class="btn nav-style text-white font-family-1 text-center mx-md-auto py-3 px-4"
+              class="btn nav-style text-white font-family-1 text-center mx-md-auto py-3 px-4 animate__animated animate__tada wow"
             >
               SEND MESSAGE
             </button>
@@ -907,14 +911,14 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-3 px-4 py-5 py-md-1">
+        <div class="col-12 col-md-3 px-4 px-md-2 py-5 py-md-1">
           <h4 class="py-3">CONTACT</h4>
           <div class="row">
             <div class="col-2 text-left text-md-center ">
               <img
                 src="./assets/img/locapng.png"
                 alt=""
-                class="icon img-fluid icon-img m-0"
+                class="icon m-0"
               />
             </div>
             <div class="col-10 py-1">
@@ -926,7 +930,7 @@
               <img
                 src="./assets/img/dialpng.png"
                 alt=""
-                class="icon img-fluid icon-img m-0"
+                class="icon icon-img m-0"
               />
             </div>
             <div class="col-10 py-3">
@@ -938,7 +942,7 @@
               <img
                 src="./assets/img/dialpng.png"
                 alt=""
-                class="icon img-fluid icon-img m-0"
+                class="icon icon-img m-0"
               />
             </div>
             <div class="col-10 py-3">
@@ -950,7 +954,7 @@
               <img
                 src="./assets/img/mailpng.png"
                 alt=""
-                class="icon img-fluid icon-img m-0"
+                class="icon m-0"
               />
             </div>
             <div class="col-10 py-3">
