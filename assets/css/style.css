@@ -220,6 +220,10 @@ svg circle{
   align-items: center;
   border-radius: 50%;
 }
+.icon{
+  width: 1rem;
+  height: 1rem;
+}
 hr{
   border:1px solid #fff;
   width: 100%;
@@ -280,7 +284,13 @@ form button{
 font-size: 8px;
 line-height: 12px;
 }
-
+.swiper-slide{
+ 
+}
+.swiper-slide p{
+  max-width: 100%;
+  margin: 1rem 2rem 1rem 2rem;
+}
 
 .hero-section button {
   
@@ -419,6 +429,9 @@ line-height: 12px;
       line-height: 1.2rem;
       max-width: 70%;
       text-align: center;
+      }
+      .swiper-slide p{
+        max-width: 50%;
       }
 }
 
@@ -580,6 +593,9 @@ border-radius: 10.3254px;
 font-size: 14px;
 line-height: 21px;
     }
+    .swiper-slide p{
+      max-width: 45%;
+    }
 }
 
 
@@ -595,5 +611,8 @@ line-height: 21px;
     font-weight: 600;
     font-size: 1.03rem;
   line-height: 1.56rem;
+  }
+  .swiper-slide p{
+    max-width: 40%;
   }
 }
