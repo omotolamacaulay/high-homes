@@ -68,7 +68,7 @@ left: calc(50vw - 75px);
 .brand-style-1{
   font-size: 18px;
   line-height: 99.9%;
-  margin: 0.69rem 0.8rem 0.69rem 3rem;
+  margin: 0.69rem 0.8rem 0.69rem 0.8rem;
 }
 .nav-item-style{
   font-weight: 600;
